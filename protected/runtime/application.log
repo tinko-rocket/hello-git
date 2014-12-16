@@ -1,0 +1,248 @@
+2014/12/12 14:45:59 [error] [php] Undefined variable: arrayMenus (C:\xampp\htdocs\muap\protected\views\menuitem\_form.php:32)
+Stack trace:
+#0 C:\yii\framework\web\CController.php(869): MenuitemController->renderFile()
+#1 C:\xampp\htdocs\muap\protected\views\menuitem\create.php(18): MenuitemController->renderPartial()
+#2 C:\yii\framework\web\CBaseController.php(126): require()
+#3 C:\yii\framework\web\CBaseController.php(95): MenuitemController->renderInternal()
+#4 C:\yii\framework\web\CController.php(869): MenuitemController->renderFile()
+#5 C:\yii\framework\web\CController.php(782): MenuitemController->renderPartial()
+#6 C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php(79): MenuitemController->render()
+#7 C:\yii\framework\web\actions\CInlineAction.php(49): MenuitemController->actionCreate()
+#8 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#10 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#13 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#16 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#17 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=menuitem/create
+in C:\xampp\htdocs\muap\protected\views\menuitem\_form.php (32)
+in C:\xampp\htdocs\muap\protected\views\menuitem\create.php (18)
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (79)
+2014/12/12 14:50:16 [error] [php] Missing argument 2 for CHtml::listData(), called in C:\xampp\htdocs\muap\protected\views\menuitem\_form.php on line 32 and defined (C:\yii\framework\web\helpers\CHtml.php:2073)
+Stack trace:
+#0 C:\yii\framework\web\CBaseController.php(95): MenuitemController->renderInternal()
+#1 C:\yii\framework\web\CController.php(869): MenuitemController->renderFile()
+#2 C:\xampp\htdocs\muap\protected\views\menuitem\create.php(18): MenuitemController->renderPartial()
+#3 C:\yii\framework\web\CBaseController.php(126): require()
+#4 C:\yii\framework\web\CBaseController.php(95): MenuitemController->renderInternal()
+#5 C:\yii\framework\web\CController.php(869): MenuitemController->renderFile()
+#6 C:\yii\framework\web\CController.php(782): MenuitemController->renderPartial()
+#7 C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php(79): MenuitemController->render()
+#8 C:\yii\framework\web\actions\CInlineAction.php(49): MenuitemController->actionCreate()
+#9 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#11 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#14 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#17 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#18 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=menuitem/create
+in C:\xampp\htdocs\muap\protected\views\menuitem\_form.php (32)
+in C:\xampp\htdocs\muap\protected\views\menuitem\create.php (18)
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (79)
+2014/12/12 14:51:46 [error] [php] Missing argument 3 for CHtml::listData(), called in C:\xampp\htdocs\muap\protected\views\menuitem\_form.php on line 32 and defined (C:\yii\framework\web\helpers\CHtml.php:2073)
+Stack trace:
+#0 C:\yii\framework\web\CBaseController.php(95): MenuitemController->renderInternal()
+#1 C:\yii\framework\web\CController.php(869): MenuitemController->renderFile()
+#2 C:\xampp\htdocs\muap\protected\views\menuitem\create.php(18): MenuitemController->renderPartial()
+#3 C:\yii\framework\web\CBaseController.php(126): require()
+#4 C:\yii\framework\web\CBaseController.php(95): MenuitemController->renderInternal()
+#5 C:\yii\framework\web\CController.php(869): MenuitemController->renderFile()
+#6 C:\yii\framework\web\CController.php(782): MenuitemController->renderPartial()
+#7 C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php(79): MenuitemController->render()
+#8 C:\yii\framework\web\actions\CInlineAction.php(49): MenuitemController->actionCreate()
+#9 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#11 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#14 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#17 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#18 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=menuitem/create
+in C:\xampp\htdocs\muap\protected\views\menuitem\_form.php (32)
+in C:\xampp\htdocs\muap\protected\views\menuitem\create.php (18)
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (79)
+2014/12/12 14:52:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:54:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:57:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Hierarchy/Pages".' in C:\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Hierarchy/Pages')
+#1 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\muap\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/muap/index.php?r=Hierarchy/Pages
+HTTP_REFERER=http://localhost/muap/index.php?r=menuitem/create
+---
+2014/12/12 14:57:56 [error] [php] include(Hierarchy.php): failed to open stream: No such file or directory (C:\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php(179): spl_autoload_call()
+#1 C:\yii\framework\web\actions\CInlineAction.php(49): MenuitemController->actionPages()
+#2 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#4 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#7 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#10 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#11 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=Menuitem/Pages
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (179)
+in C:\xampp\htdocs\muap\index.php (13)
+2014/12/12 14:58:59 [error] [php] include(Hierarchy.php): failed to open stream: No such file or directory (C:\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php(179): spl_autoload_call()
+#1 C:\yii\framework\web\actions\CInlineAction.php(49): MenuitemController->actionPages()
+#2 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#4 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#7 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#10 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#11 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=Menuitem/Pages
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (179)
+in C:\xampp\htdocs\muap\index.php (13)
+2014/12/12 14:59:06 [error] [php] include(Hierarchy.php): failed to open stream: No such file or directory (C:\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php(179): spl_autoload_call()
+#1 C:\yii\framework\web\actions\CInlineAction.php(49): MenuitemController->actionPages()
+#2 C:\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#4 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#7 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#10 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#11 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=Menuitem/Pages
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (179)
+in C:\xampp\htdocs\muap\index.php (13)
+2014/12/12 15:00:10 [error] [php] Undefined index: Menuitem (C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php:179)
+Stack trace:
+#0 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#1 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#4 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#7 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#8 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=menuitem/pages
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (179)
+in C:\xampp\htdocs\muap\index.php (13)
+2014/12/12 15:00:20 [error] [php] Undefined index: Menuitem (C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php:179)
+Stack trace:
+#0 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#1 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#4 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#7 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#8 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=menuitem/pages
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (179)
+in C:\xampp\htdocs\muap\index.php (13)
+2014/12/12 15:01:35 [error] [php] Undefined index: Menuitem (C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php:179)
+Stack trace:
+#0 C:\yii\framework\web\filters\CFilterChain.php(133): MenuitemController->runAction()
+#1 C:\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\yii\framework\web\filters\CInlineFilter.php(58): MenuitemController->filterAccessControl()
+#4 C:\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\yii\framework\web\CController.php(265): MenuitemController->runActionWithFilters()
+#7 C:\yii\framework\web\CWebApplication.php(282): MenuitemController->run()
+#8 C:\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\muap\index.php(13): CWebApplication->run()
+REQUEST_URI=/muap/index.php?r=Menuitem/Pages
+in C:\xampp\htdocs\muap\protected\controllers\MenuitemController.php (179)
+in C:\xampp\htdocs\muap\index.php (13)
