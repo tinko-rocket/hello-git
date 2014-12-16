@@ -28,19 +28,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'menuname'); ?>
 		<?php //echo $form->textField($model,'menuname',array('size'=>15,'maxlength'=>15)); ?>
-
 		<?php echo $form->dropDownList($model, 'menuname', CHtml::listData(Menuitem::model()->findAll(), 'menuname', 'description'),
-			array(
-				'ajax' => array(
-					'type'=>'POST', //request type
-					'url'=>CController::createUrl('menuitem/pages'), //url to call.
-					//Style: CController::createUrl('currentController/methodToCall')
-					'update'=>'#'. CHtml::activeId($model,'parent'), //selector to update
-					'data'=>'js:this.value' 
-					//'data'=>'js:javascript statement' 
-					//leave out the data key to pass all form values through
-				))); ?>
-
 		<?php echo $form->error($model,'menuname'); ?>
 	</div>
 
